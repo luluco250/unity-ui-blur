@@ -1,5 +1,7 @@
 using UnityEngine;
 
+namespace UIBlur.Demo {
+
 class Spinner : MonoBehaviour {
 	public Vector3 rotationSpeed = Vector3.zero;
 	Vector3 rotation;
@@ -12,4 +14,6 @@ class Spinner : MonoBehaviour {
 		rotation += rotationSpeed;
 		transform.localRotation = Quaternion.Euler(rotation);
 	}
+}
+
 }

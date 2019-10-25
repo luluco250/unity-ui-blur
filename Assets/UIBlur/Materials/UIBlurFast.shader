@@ -1,7 +1,11 @@
 /*
 	Simple box blur shader for UI elements, blurring the background.
 
-	This variant uses shared textures for faster grab passes.
+	This variant uses shared textures for faster grab passes. This means all
+	blurry widgets will share the same effect/texture/blur, so you won't be able
+	to layer them on top of each other and still achieve the same effect.
+
+	Use the "UI/Blur" variant if you need that, but be aware it may be slower.
 */
 
 Shader "UI/BlurFast" {

@@ -1,5 +1,7 @@
 using UnityEngine;
 
+namespace UIBlur.Demo {
+
 class Mover : MonoBehaviour {
 	public Vector3 startPosition = Vector3.zero;
 	public Vector3 endPosition = Vector3.zero;
@@ -18,4 +20,6 @@ class Mover : MonoBehaviour {
 
 		transform.localPosition = pos;
 	}
+}
+
 }

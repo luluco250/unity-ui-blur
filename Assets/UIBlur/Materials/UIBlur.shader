@@ -3,6 +3,9 @@
 
 	This variant uses independent grab passes to avoid glitches that occur when
 	elements touch viewport borders.
+
+	This also means it will work with multiple blurry widgets set on top of each
+	other.
 */
 
 Shader "UI/Blur" {
